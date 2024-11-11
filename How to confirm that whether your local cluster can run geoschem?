@@ -1,2 +1,15 @@
-Basic Requriement:
+Please read the doc https://geos-chem.readthedocs.io/en/stable/getting-started/quick-start.html firstly!!!
+This doc contains only about how to run the geoschem on IAP's Earthlab.
 
+Step1:
+Download the geoschem classic or GCHP from git.
+git clone --recurse-submodules https://github.com/geoschem/GCClassic.git /path/in/your/cluster/GCClassic
+git clone --recurse-submodules https://github.com/geoschem/GCHP.git /path/in/your/cluster/GCHP
+
+Use command below to change the Version to you prefer.
+git checkout tags/Version you like
+
+Step2:
+Create Run dir.
+bash ~/GCClassic/run/CreateRunDir.sh
+Then choose the relative setting for your simulation
